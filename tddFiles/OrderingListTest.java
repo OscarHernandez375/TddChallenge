@@ -20,7 +20,7 @@ public class OrderingListTest {
             unordered[(i*11+7)%20]=i;
         }
 
-        int[] real = expected;
+        int[] real = test.orderArray(unordered);
 
 
         assertArrayEquals(expected,real);
